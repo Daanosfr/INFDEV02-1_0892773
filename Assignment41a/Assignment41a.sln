@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication2", "PythonApplication2\PythonApplication2.pyproj", "{57F08565-D86F-4346-9877-DE93C71841D6}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Assignment41a", "Assignment41a\Assignment41a.pyproj", "{1F101FDB-FEF5-4640-AC5E-F9E97D239DBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +11,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{57F08565-D86F-4346-9877-DE93C71841D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57F08565-D86F-4346-9877-DE93C71841D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F101FDB-FEF5-4640-AC5E-F9E97D239DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F101FDB-FEF5-4640-AC5E-F9E97D239DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
