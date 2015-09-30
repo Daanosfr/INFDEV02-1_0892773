@@ -50,9 +50,9 @@ def Program():
             change_color_to(Blue)
             print("Right")
         elif x is 115:
-            turn (180)
+            turn (45)
             change_color_to(Green)
-            print("Backward")
+            print("45 degrees")
 
     move(x)
 run(Program)
