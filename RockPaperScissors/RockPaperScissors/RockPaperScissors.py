@@ -1,10 +1,10 @@
-import random;
-player = input("Enter your choice (rock/paper/scissors): ")
+﻿import random;
+player = raw_input("Enter your choice (rock/paper/scissors): ")
 player = player.lower()
 
 while (player != "rock" and player != "paper" and player != "scissors"):
-	print(player)
-	player = input("That choice is not valid. Enter your choice (rock/paper/scissors): ")
+	print player
+	player = raw_input("That choice is not valid. Enter your choice (rock/paper/scissors): ")
 	player = player.lower()
 
 computerInt = random.randint(0,2)
@@ -16,21 +16,21 @@ elif (computerInt == 2):
 	computer = "scissors"
 else:
     computer = "Huh? Error..."
-print ("The computer choose: ", computer)
+print "The computer choose: ", computer
 if (player == computer):
-	print("Draw!");
+	print "Draw!"
 elif (player == "rock"):
 	if (computer == "paper"):
-		print("Computer wins!")
+		print "Computer wins!"
 	else:
-		print("You win!")
+		print "You win!"
 elif (player == "paper"):
 	if (computer == "rock"):
-		print("You win!")
+		print "You win!"
 	else:
-		print("Computer wins!")
+		print "Computer wins!"
 elif (player == "scissors"):
 	if (computer == "rock"):
-		print("Computer wins!")
+		print "Computer wins!"
 	else:
-		print("You win!")
+		print "You win!"
