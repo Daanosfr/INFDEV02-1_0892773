@@ -11,14 +11,11 @@ while running:
         running=False
 if re.search(r'[a-z]', p):
     if re.search(r'[A-Z]' ,p):
-        if re.search(r'[d/]',p):
+        if re.search(r'[\d]',p):
             if re.search(r'[^a-zA-Z0-9_]', p):
                 print "Your password is super strong!"
             else:
-                print "Your password is strong, try using special characters to strengthen your password."
-        else: "Your password is OK, try using some numbers and special characters to strengthen your password."
-    else: "Your password is too weak"
-else: "Your password is shit"
-            
-
-    
+                print "Your password is strong, but you can strengthen it by using a special character."
+        else: "Your password is OK, but you can strenghten it by using a digit."
+    else: "Your password is too weak, it must contain a uppercase character."
+else: "Your password is shit, it must contain lowercase character."
