@@ -18,4 +18,4 @@ if re.search(r'[a-z]', p):
                 print "Your password is strong, but you can strengthen it by using a special character."
         else: "Your password is OK, but you can strenghten it by using a digit."
     else: "Your password is too weak, it must contain a uppercase character."
-else: "Your password is shit, it must contain lowercase character."
+else: "Your password is shit, it must contain lowercase character. "
