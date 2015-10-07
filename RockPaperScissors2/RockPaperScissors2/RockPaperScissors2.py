@@ -18,8 +18,7 @@ elif (computerInt == 3):
 	computer = "lizard"
 elif (computerInt == 4):
 	computer = "spock"
-else:
-    computer = "Huh? Error..."
+
 print "The computer choose: ", computer
 if (player == computer):
 	print("Draw!");
